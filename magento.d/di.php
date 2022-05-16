@@ -5,5 +5,9 @@ use Magento\Framework\App\{
 };
 
 function di(...$args) {
-    return ObjectManager::getInstance()->create(...$args);
+    return om()->create(...$args);
+}
+
+function om(): ObjectManager {
+    return ObjectManager::getInstance();
 }
