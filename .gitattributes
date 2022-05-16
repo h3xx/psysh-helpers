@@ -1,0 +1,3 @@
+# Treat package manager lockfiles as binary
+# (really should not be editing these files manually)
+composer.lock binary

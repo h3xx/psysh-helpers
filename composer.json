@@ -1,0 +1,14 @@
+{
+    "name": "h3xx/psysh",
+    "type": "project",
+    "require": {
+        "fakerphp/faker": "^1.19"
+    },
+    "license": "GPL 3.0",
+    "authors": [
+        {
+            "name": "Dan Church",
+            "email": "dan.church@irishtitan.com"
+        }
+    ]
+}

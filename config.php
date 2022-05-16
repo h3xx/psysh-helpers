@@ -1,5 +1,7 @@
 <?php
 
+require_once(__DIR__ . '/vendor/autoload.php');
+
 function _include_dir(string $dir): void {
     if (is_dir($dir)) {
         foreach (glob("$dir/*.php") as $inc) {
@@ -7,6 +9,8 @@ function _include_dir(string $dir): void {
         }
     }
 }
+
+_include_dir(__DIR__ . '/common.d');
 
 if (function_exists('app')) {
     // Laravel functions
