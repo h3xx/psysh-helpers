@@ -5,6 +5,10 @@ use Magento\Framework\App\{
 };
 
 function di(...$args) {
+    return om()->get(...$args);
+}
+
+function di_new(...$args) {
     return om()->create(...$args);
 }
 
