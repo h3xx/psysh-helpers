@@ -2,6 +2,7 @@
     "name": "h3xx/psysh",
     "type": "project",
     "require": {
+        "php": "^7.4|^8.0",
         "fakerphp/faker": "^1.19"
     },
     "license": "GPL 3.0",
