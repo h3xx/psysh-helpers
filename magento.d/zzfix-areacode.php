@@ -1,4 +1,4 @@
 <?php
 
-areacode('frontend');
+setAreaCode('frontend');
 
