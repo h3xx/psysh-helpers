@@ -1,6 +1,8 @@
 <?php
 
-require_once(__DIR__ . '/vendor/autoload.php');
+if (file_exists($autoload = __DIR__ . '/vendor/autoload.php')) {
+    require_once($autoload);
+}
 
 function _include_dir(string $dir): void {
     if (is_dir($dir)) {
